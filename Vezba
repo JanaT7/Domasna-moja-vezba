@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Апликација</title>
+
+	<style>
+		body {background-color: yellow}
+	main {background-color: tomato}
+	article {background-color: orange}
+
+	#artikl2 {background-color: red}
+#artikl3 {background-color: orange}
+
+
+/* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: dodgerblue;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: green;
+}
+
+
+</style>
+
+</head>
+<body>
+
+
+	<div>
+		<main>
+
+		<p>
+
+<h1> Апликација за курсеви </h1>
+
+
+</p>
+</main>
+
+<br>
+<hr>
+
+<p>
+	<article id="artikl1">
+<i>Ве молиме <b>пополнете ги сите полиња</b> во апликацијата!</i>
+</p>
+
+
+<p>
+	<b>Основни информации за апликантот</b>
+	<br>
+<br>
+<label>Име</label>
+<input type="text" name="ime">
+<br>
+<label>Презиме</label>
+<input type="text" name="prezime">
+<br>
+<label>Датум на раѓање</label>
+<input type="date" name="data">
+<br>
+<label>Адреса на живеење</label>
+<input type="text" name="adresa">
+<br>
+<label>Телефонски број</label>
+<input type="numbers" name="broj">
+
+</article>
+
+<article id="artikl2">
+</p>
+<hr>
+<p>
+<h1>Информации на курсот</h1>	
+<br>
+Информации за курсевите може да добиете <i><a href="http://www.semosedu.com.mk/Home_page.aspx">овде.</i></a>
+
+	<br>
+<label>Име на курсот</label>
+<input type="text" name="imekurs">
+<br>
+<label>Број на часови</label>
+<input type="text" name="casevibroj">
+<br>
+<label>Датум на почеток</label>
+<input type="date" name="datumpocetok">
+<br>
+</article>
+</p>
+<hr>
+<p>
+	<article id="artikl3">
+
+		<h3>Останати информации</h3>
+<br>
+Одберете начин на плаќање:
+<br>
+<ul>
+	<li>Во кеш</label><input type="radio" name="kopce"></li>
+		<li><label>Со картичка </label><input type="radio" name="kopce"></li>
+<label>Дали сакате да добивате рекламен материјал</label>
+<input type="checkbox" name="stikla">
+</ul>
+
+
+</p>
+</article>
+	</div>
+
+
+</body>
+</html>
